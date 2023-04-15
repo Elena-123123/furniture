@@ -1,0 +1,76 @@
+// main: style.less
+.header-buttun {
+        display: block;
+        width: 257px;
+        height: 50px;
+        color: black;
+        margin: 0px 0px 0px 32px;
+        border: 2px solid @secondaryColor;
+        background: none;
+        cursor: pointer;
+    & a {
+        color: @secondaryColor;  
+    }  
+    
+        & a {
+            color: @subtitleColor;
+        }
+    
+        &:hover {
+            background: @secondaryColor;
+        }
+    }
+
+.primery-btn {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    gap: 10px;
+    border: 2px solid @secondaryColor;
+    cursor: pointer;
+    background: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    transform: 0.5s linear;
+    font-family: inherit;
+
+    & a {
+        color: @subtitleColor;
+    }
+
+    &:hover {
+        background: @secondaryColor;
+    }
+}
+.secondary-btn {
+    display: block;
+        width: 350px;
+        height: 50px;
+        color: black;
+        padding: 10px;
+        margin: 20px;
+    border: 2px solid @secondaryColor;
+    background: none;
+    cursor: pointer;
+    & a {
+        color: @secondaryColor;  
+    }  
+  
+}
+
+.btn-block-content {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-block-content a {
+    color: @secondaryColor;
+
+    &:hover {
+        color: white;
+    }
+}
